@@ -42,7 +42,7 @@
           "id": "10.1",
           "setup": {
             "watchers": [
-              "./**"
+              "index.html"
             ],
             "commits": [
               "59f22ab3b89895e03b8f3e18e4b9ef949aab9947"
@@ -71,7 +71,7 @@
           "id": "20.1",
           "setup": {
             "watchers": [
-              "./index.html"
+              "index.html"
             ],
             "commits": [
               "f5f287cec026f0a50efba366b79c17170398e214"
@@ -101,7 +101,7 @@
           "id": "30.1",
           "setup": {
             "watchers": [
-              "./index.html"
+              "index.html"
             ],
             "commits": [
               "b71908fb8dca9bfc775b974c717a35bde2e536bb"
@@ -131,7 +131,7 @@
           "id": "40.1",
           "setup": {
             "watchers": [
-              "./index.html"
+              "index.html"
             ],
             "commits": [
               "1c18c0f2051412ccb6ca964aa30c3788dd6dc87c"
@@ -161,7 +161,7 @@
           "id": "50.1",
           "setup": {
             "watchers": [
-              "./index.html"
+              "index.html"
             ],
             "commits": [
               "7104b213106f03971faedb0b4820e541fd87ac30"
