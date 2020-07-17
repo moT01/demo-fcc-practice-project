@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getIndexFile } = require('./utils');
 
 describe('index.html', () => {
@@ -7,7 +7,7 @@ describe('index.html', () => {
     indexFile = await getIndexFile();
   });
 
-  it('should have a DOCTYPE', () => {
-    assert(/<!doctype html>/i.test(indexFile));
+  it('should html tags', () => {
+    assert(/<html>/i.test(indexFile));
   });
-});*/
+});
