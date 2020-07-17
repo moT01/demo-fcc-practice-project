@@ -1,0 +1,185 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "freeCodeCamp Practice Project Example",
+    "description": "> Example of a freeCodeCamp practice project"
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "setup": {
+        "commands": [
+          "npm install"
+        ],
+        "commits": [
+          "af2691bdd603ac5c453f19b227be2be1c8473b02"
+        ]
+      },
+      "directory": "freeCodeCamp"
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/demo-fcc-practice-project",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "10",
+      "title": "Create Index.html",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "10.1",
+          "setup": {
+            "watchers": [
+              "../*"
+            ],
+            "commits": [
+              "59f22ab3b89895e03b8f3e18e4b9ef949aab9947"
+            ]
+          },
+          "content": "Create `index.html`",
+          "hints": [
+            "Create the file in the project folder",
+            "Here's another hint"
+          ],
+          "solution": {
+            "commits": [
+              "bc7d6d572dba9ce2588ce4204c250d52340af808"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Add DOCTYPE",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "20.1",
+          "setup": {
+            "watchers": [
+              "../index.html"
+            ],
+            "commits": [
+              "f5f287cec026f0a50efba366b79c17170398e214"
+            ]
+          },
+          "content": "Add `<!DOCTYPE html>` at the top of the `index.html` file",
+          "hints": [
+            "Here's a hint",
+            "Here's a second hint",
+            "Here's a third hint"
+          ],
+          "solution": {
+            "commits": [
+              "b96f924937f7b51794ba0d52a8086a233ee30d3c"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Add HTML Tags",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "30.1",
+          "setup": {
+            "watchers": [
+              "../index.html"
+            ],
+            "commits": [
+              "b71908fb8dca9bfc775b974c717a35bde2e536bb"
+            ]
+          },
+          "content": "Add opening and closing `<html>` below the doctype",
+          "hints": [
+            "Hint1",
+            "Hint2",
+            "Hint3"
+          ],
+          "solution": {
+            "commits": [
+              "302902c90998a87ee6bd4282bb9d7ff6b852e4ac"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Add Head Tags",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "40.1",
+          "setup": {
+            "watchers": [
+              "../index.html"
+            ],
+            "commits": [
+              "1c18c0f2051412ccb6ca964aa30c3788dd6dc87c"
+            ]
+          },
+          "content": "Nest opening and closing `head` tags in the `html` element",
+          "hints": [
+            "Hint 1",
+            "Hint 2",
+            "Hint 3"
+          ],
+          "solution": {
+            "commits": [
+              "317efad45f0cf0f4d1a4d2f14a189da2ccd9ccee"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Add Body Tags",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "50.1",
+          "setup": {
+            "watchers": [
+              "../index.html"
+            ],
+            "commits": [
+              "7104b213106f03971faedb0b4820e541fd87ac30"
+            ]
+          },
+          "content": "Nest opening and closing `body` tags in the `html` element **below** the `head` element",
+          "hints": [
+            "Hint 1",
+            "Hint 2",
+            "Hint 3"
+          ],
+          "solution": {
+            "commits": [
+              "6a6b9c008642971d440b9b8849a13ffd0dd2930b"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
