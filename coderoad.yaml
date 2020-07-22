@@ -45,3 +45,4 @@ levels:
         setup:
           watchers:
             - index.html
+  - id: '60'
