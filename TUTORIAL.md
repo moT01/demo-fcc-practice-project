@@ -60,7 +60,3 @@ Nest opening and closing `body` tags in the `html` element **below** the `head` 
 - Hint 1
 - Hint 2
 - Hint 3
-
-## 60. Congatulations
-
-> You finished it!

@@ -14,6 +14,9 @@ config:
   dependencies:
     - name: node
       version: '>=10'
+  reset:
+    command:
+      - npm install
 levels:
   - id: '10'
     steps:
@@ -45,4 +48,3 @@ levels:
         setup:
           watchers:
             - index.html
-  - id: '60'
