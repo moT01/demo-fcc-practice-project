@@ -16,7 +16,7 @@ config:
       version: '>=10'
   reset:
     command:
-      - npm install
+      - 'npm install'
 levels:
   - id: '10'
     steps:
