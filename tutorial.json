@@ -29,10 +29,7 @@
         "name": "node",
         "version": ">=10"
       }
-    ],
-    "reset": {
-      "command": "npm install"
-    }
+    ]
   },
   "levels": [
     {
