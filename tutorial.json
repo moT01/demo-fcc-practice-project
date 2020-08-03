@@ -29,7 +29,10 @@
         "name": "node",
         "version": ">=10"
       }
-    ]
+    ],
+    "reset": {
+      "command": "npm install"
+    }
   },
   "levels": [
     {
@@ -180,13 +183,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "60",
-      "title": "Congatulations",
-      "summary": "> You finished it!",
-      "content": "> You finished it!",
-      "steps": []
     }
   ]
 }
