@@ -5,18 +5,18 @@
     "description": "> Example of a freeCodeCamp practice project"
   },
   "config": {
+    "setup": {
+      "commands": [
+        "npm install"
+      ],
+      "commits": [
+        "af2691bdd603ac5c453f19b227be2be1c8473b02"
+      ]
+    },
     "testRunner": {
       "command": "./node_modules/.bin/mocha",
       "args": {
         "tap": "--reporter=mocha-tap-reporter"
-      },
-      "setup": {
-        "commands": [
-          "npm install"
-        ],
-        "commits": [
-          "af2691bdd603ac5c453f19b227be2be1c8473b02"
-        ]
       },
       "directory": "freeCodeCamp"
     },
