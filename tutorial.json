@@ -10,7 +10,7 @@
         "cd freeCodeCamp && npm install"
       ],
       "commits": [
-        "68e2aa97a9ae01c9da5259ebc55323d2f23d78f0"
+        "4ab5625a3bf291525e9790cf200d3e977346515c"
       ]
     },
     "testRunner": {
@@ -45,7 +45,7 @@
               "index.html"
             ],
             "commits": [
-              "60802312107b63e77527040f2fe27cfae8b57935"
+              "415e463fb7a5af74a13332746fa5ec9c4525cf61"
             ]
           },
           "content": "Create `index.html`",
@@ -69,7 +69,7 @@
               "index.html"
             ],
             "commits": [
-              "9a84a43baa4ca3d4742e48067466e586d0d586fd"
+              "c47fabe0973f98eea4156ec859bdec0ae6235c1b"
             ]
           },
           "content": "Add `<!DOCTYPE html>` at the top of the `index.html` file",
@@ -94,7 +94,7 @@
               "index.html"
             ],
             "commits": [
-              "5bbfed5870598eaf72a9791fad7e10a3cb1df9d4"
+              "b58383eb6fe648eb501ffb20b60ffc062979425c"
             ]
           },
           "content": "Add opening and closing `<html>` below the doctype",
@@ -119,7 +119,7 @@
               "index.html"
             ],
             "commits": [
-              "3ffe28de12df72676b6c4544205006b891c910ec"
+              "49b257bde688eaca8bcd7471b0f7c1eb007ae792"
             ]
           },
           "content": "Nest opening and closing `head` tags in the `html` element",
@@ -144,7 +144,7 @@
               "index.html"
             ],
             "commits": [
-              "ed6e7db3603f481381445b30133da4d650aa1c0f"
+              "fc2bf3996226fea254dc620a225a6cd950548b06"
             ]
           },
           "content": "Nest opening and closing `body` tags in the `html` element **below** the `head` element",
