@@ -10,11 +10,11 @@
         "cd freeCodeCamp && npm install"
       ],
       "commits": [
-        "af2691bdd603ac5c453f19b227be2be1c8473b02"
+        "68e2aa97a9ae01c9da5259ebc55323d2f23d78f0"
       ]
     },
     "testRunner": {
-      "command": "./node_modules/.bin/mocha",
+      "command": "npm run programmatic-test",
       "args": {
         "tap": "--reporter=mocha-tap-reporter"
       },
@@ -45,19 +45,14 @@
               "index.html"
             ],
             "commits": [
-              "59f22ab3b89895e03b8f3e18e4b9ef949aab9947"
+              "60802312107b63e77527040f2fe27cfae8b57935"
             ]
           },
           "content": "Create `index.html`",
           "hints": [
             "Create the file in the project folder",
             "Here's another hint"
-          ],
-          "solution": {
-            "commits": [
-              "bc7d6d572dba9ce2588ce4204c250d52340af808"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -74,7 +69,7 @@
               "index.html"
             ],
             "commits": [
-              "f5f287cec026f0a50efba366b79c17170398e214"
+              "9a84a43baa4ca3d4742e48067466e586d0d586fd"
             ]
           },
           "content": "Add `<!DOCTYPE html>` at the top of the `index.html` file",
@@ -82,12 +77,7 @@
             "Here's a hint",
             "Here's a second hint",
             "Here's a third hint"
-          ],
-          "solution": {
-            "commits": [
-              "b96f924937f7b51794ba0d52a8086a233ee30d3c"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -104,7 +94,7 @@
               "index.html"
             ],
             "commits": [
-              "b71908fb8dca9bfc775b974c717a35bde2e536bb"
+              "5bbfed5870598eaf72a9791fad7e10a3cb1df9d4"
             ]
           },
           "content": "Add opening and closing `<html>` below the doctype",
@@ -112,12 +102,7 @@
             "Hint1",
             "Hint2",
             "Hint3"
-          ],
-          "solution": {
-            "commits": [
-              "302902c90998a87ee6bd4282bb9d7ff6b852e4ac"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -134,7 +119,7 @@
               "index.html"
             ],
             "commits": [
-              "1c18c0f2051412ccb6ca964aa30c3788dd6dc87c"
+              "3ffe28de12df72676b6c4544205006b891c910ec"
             ]
           },
           "content": "Nest opening and closing `head` tags in the `html` element",
@@ -142,12 +127,7 @@
             "Hint 1",
             "Hint 2",
             "Hint 3"
-          ],
-          "solution": {
-            "commits": [
-              "317efad45f0cf0f4d1a4d2f14a189da2ccd9ccee"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -164,7 +144,7 @@
               "index.html"
             ],
             "commits": [
-              "7104b213106f03971faedb0b4820e541fd87ac30"
+              "ed6e7db3603f481381445b30133da4d650aa1c0f"
             ]
           },
           "content": "Nest opening and closing `body` tags in the `html` element **below** the `head` element",
@@ -172,12 +152,7 @@
             "Hint 1",
             "Hint 2",
             "Hint 3"
-          ],
-          "solution": {
-            "commits": [
-              "6a6b9c008642971d440b9b8849a13ffd0dd2930b"
-            ]
-          }
+          ]
         }
       ]
     }
