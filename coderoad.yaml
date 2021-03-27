@@ -4,7 +4,7 @@ config:
     commands:
       - cd freeCodeCamp && npm install
   testRunner:
-    command: ./node_modules/.bin/mocha
+    command: npm run programmatic-test
     args:
       tap: --reporter=mocha-tap-reporter
     directory: freeCodeCamp
