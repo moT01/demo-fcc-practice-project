@@ -7,7 +7,7 @@
   "config": {
     "setup": {
       "commands": [
-        "npm install"
+        "cd freeCodeCamp && npm install"
       ],
       "commits": [
         "af2691bdd603ac5c453f19b227be2be1c8473b02"
