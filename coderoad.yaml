@@ -2,7 +2,7 @@ version: '0.1.0'
 config:
   setup:
     commands:
-      - npm install
+      - cd freeCodeCamp && npm install
   testRunner:
     command: ./node_modules/.bin/mocha
     args:
