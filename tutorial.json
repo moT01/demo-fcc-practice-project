@@ -10,7 +10,7 @@
         "cd freeCodeCamp && npm install"
       ],
       "commits": [
-        "4ab5625a3bf291525e9790cf200d3e977346515c"
+        "d6106314b80c1158aa093d528d493d96ed4bfbe0"
       ]
     },
     "testRunner": {
@@ -29,17 +29,7 @@
         "name": "node",
         "version": ">=10"
       }
-    ],
-    "webhook": {
-      "url": "http://localhost:3000/coderoad-challenge-completed",
-      "events": {
-        "init": false,
-        "reset": false,
-        "step_complete": false,
-        "level_complete": true,
-        "tutorial_complete": true
-      }
-    }
+    ]
   },
   "levels": [
     {
@@ -55,7 +45,7 @@
               "index.html"
             ],
             "commits": [
-              "415e463fb7a5af74a13332746fa5ec9c4525cf61"
+              "c75d12e03ee0608ec2d8498df2bfb18955115bf8"
             ]
           },
           "content": "Create `index.html`",
@@ -79,7 +69,7 @@
               "index.html"
             ],
             "commits": [
-              "c47fabe0973f98eea4156ec859bdec0ae6235c1b"
+              "9c4241fb1baf445d6f068f93aa8011d88d8c72fa"
             ]
           },
           "content": "Add `<!DOCTYPE html>` at the top of the `index.html` file",
@@ -104,7 +94,7 @@
               "index.html"
             ],
             "commits": [
-              "b58383eb6fe648eb501ffb20b60ffc062979425c"
+              "af9b712f3de047ed91cea6ecf14e0994e1927916"
             ]
           },
           "content": "Add opening and closing `<html>` below the doctype",
@@ -129,7 +119,7 @@
               "index.html"
             ],
             "commits": [
-              "49b257bde688eaca8bcd7471b0f7c1eb007ae792"
+              "d1eb693dc1b27f4d92a52dc7d2e6d307d5b4f0d4"
             ]
           },
           "content": "Nest opening and closing `head` tags in the `html` element",
@@ -154,7 +144,7 @@
               "index.html"
             ],
             "commits": [
-              "fc2bf3996226fea254dc620a225a6cd950548b06"
+              "aeb9e9eca8afdb33158bd7212418da8ceb928a10"
             ]
           },
           "content": "Nest opening and closing `body` tags in the `html` element **below** the `head` element",
