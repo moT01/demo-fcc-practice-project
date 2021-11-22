@@ -1,0 +1,9 @@
+{
+  "init": "exit",
+  "envVariables": [
+    ["CODEROAD_TUTORIAL_URL", "https://raw.githubusercontent.com/moT01/demo-fcc-practice-project/main/tutorial.json"],
+    ["CODEROAD_DISABLE_RUN_ON_SAVE", true],
+    ["CODEROAD_WEBHOOK_TOKEN", "7PCJZRo2GcB1hnE1lVLeWDEPU7O1APiSezu4V82PxkSw2LaCURB2HJnaQmwMRzJj"]
+  ],
+  "extensions": ["coderoad.coderoad"]
+}
